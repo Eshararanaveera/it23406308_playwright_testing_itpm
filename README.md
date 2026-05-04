@@ -240,12 +240,11 @@ For issues or questions:
 ## 🎓 Test Case Categories
 
 The test suite includes:
-- **Positive Functional (Pos_Fun_*)**: Valid Singlish inputs
+(Pos_Fun_*)**: Valid Singlish inputs
   - Short sentences (S)
   - Medium sentences (M)
   - Long sentences (L)
-- **Negative Functional (Neg_Fun_*)**: Edge cases and invalid inputs
-- **UI Tests (Pos_UI_*)**: User interface specific tests
+
 
 ## ⏱️ Estimated Run Time
 
