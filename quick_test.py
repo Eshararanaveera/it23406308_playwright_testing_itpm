@@ -11,7 +11,7 @@ with open(original_file, 'r', encoding='utf-8') as f:
 import subprocess
 result = subprocess.run([
     sys.executable, 'test_automation.py',
-    '--excel', 'Assignment 1 - Test cases.xlsx',
+    '--excel', 'Assignment 1 - Test cases_IT23406308.xlsx',
     '--save-every', '1',
     '--wait-ms', '8000',
     '--retries', '15'

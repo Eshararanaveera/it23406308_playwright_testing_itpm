@@ -43,7 +43,7 @@ playwright install chromium
 ```
 test_automation/
 ├── test_automation.py          # Main test script
-├── Assignment 1 - Test cases.xlsx  # Excel file with test cases
+├── Assignment 1 - Test cases_IT23406308.xlsx  # Excel file with test cases
 ├── README.md                   # This file
 ├── debug_test.py              # Debug script (optional)
 └── quick_test.py              # Quick test script (optional)
@@ -81,7 +81,7 @@ python test_automation.py
 ### With Custom Excel File
 
 ```bash
-python test_automation.py --excel "path/to/your/testcases.xlsx"
+python test_automation.py --excel "Assignment 1 - Test cases_IT23406308.xlsx"
 ```
 
 ### Headless Mode (No Browser Window)
@@ -113,7 +113,7 @@ python test_automation.py --wait-ms 10000 --retries 20
 
 | Option | Default | Description |
 |--------|---------|-------------|
-| `--excel` | Assignment 1 - Test cases.xlsx | Path to Excel file |
+| `--excel` | Assignment 1 - Test cases_IT23406308.xlsx | Path to Excel file |
 | `--sheet` | " Test cases" | Sheet name in Excel |
 | `--url` | https://www.pixelssuite.com/chat-translator | Translator URL |
 | `--headless` | False | Run browser in headless mode |
